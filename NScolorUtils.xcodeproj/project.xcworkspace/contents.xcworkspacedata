@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/yang/Downloads/DFColorWell-master/NSColor_Utils.xcodeproj">
+      location = "self:NScolorUtils.xcodeproj">
    </FileRef>
 </Workspace>

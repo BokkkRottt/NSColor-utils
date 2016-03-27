@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F282E9F1CA7EB7C00FBA410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282E9E1CA7EB7C00FBA410 /* main.m */; };
+		2F282EBD1CA7EB9C00FBA410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282EAC1CA7EB9C00FBA410 /* AppDelegate.m */; };
+		2F282EBE1CA7EB9C00FBA410 /* DFColorWell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282EAE1CA7EB9C00FBA410 /* DFColorWell.m */; };
+		2F282EBF1CA7EB9C00FBA410 /* DFColorGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282EB01CA7EB9C00FBA410 /* DFColorGridView.m */; };
+		2F282EC01CA7EB9C00FBA410 /* NSColor+Rainbow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282EB21CA7EB9C00FBA410 /* NSColor+Rainbow.m */; };
+		2F282EC11CA7EB9C00FBA410 /* NSColor+RainbowCrayons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282EB41CA7EB9C00FBA410 /* NSColor+RainbowCrayons.m */; };
+		2F282EC21CA7EB9C00FBA410 /* NSColor+RainbowGoogleDesign.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282EB61CA7EB9C00FBA410 /* NSColor+RainbowGoogleDesign.m */; };
+		2F282EC31CA7EB9C00FBA410 /* NSColor+RainbowLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282EB81CA7EB9C00FBA410 /* NSColor+RainbowLight.m */; };
+		2F282EC41CA7EB9C00FBA410 /* NSColor+RainbowX11.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282EBA1CA7EB9C00FBA410 /* NSColor+RainbowX11.m */; };
+		2F282EC51CA7EB9C00FBA410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F282EBB1CA7EB9C00FBA410 /* Images.xcassets */; };
+		2F282EC61CA7EB9C00FBA410 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F282EBC1CA7EB9C00FBA410 /* MainMenu.xib */; };
+		2F282EC91CA7EBAD00FBA410 /* Screen Shot 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F282EC71CA7EBAD00FBA410 /* Screen Shot 1.png */; };
+		2F282ECA1CA7EBAD00FBA410 /* Screen Shot 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F282EC81CA7EBAD00FBA410 /* Screen Shot 2.png */; };
+		2F282ED91CA7EBED00FBA410 /* BFColorPickerPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282ECC1CA7EBED00FBA410 /* BFColorPickerPopover.m */; };
+		2F282EDA1CA7EBED00FBA410 /* BFPopoverColorWell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282ECE1CA7EBED00FBA410 /* BFPopoverColorWell.m */; };
+		2F282EDB1CA7EBED00FBA410 /* NSColorPanel+BFColorPickerPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282ED01CA7EBED00FBA410 /* NSColorPanel+BFColorPickerPopover.m */; };
+		2F282EDC1CA7EBED00FBA410 /* NSColorWell+BFColorPickerPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282ED21CA7EBED00FBA410 /* NSColorWell+BFColorPickerPopover.m */; };
+		2F282EDD1CA7EBED00FBA410 /* BFColorPickerPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282ED41CA7EBED00FBA410 /* BFColorPickerPopoverView.m */; };
+		2F282EDE1CA7EBED00FBA410 /* BFColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282ED61CA7EBED00FBA410 /* BFColorPickerViewController.m */; };
+		2F282EDF1CA7EBED00FBA410 /* BFIconTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F282ED81CA7EBED00FBA410 /* BFIconTabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F282E971CA7EB7C00FBA410 /* NScolorUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NScolorUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F282E9E1CA7EB7C00FBA410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F282EA51CA7EB7C00FBA410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F282EAB1CA7EB9C00FBA410 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F282EAC1CA7EB9C00FBA410 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F282EAD1CA7EB9C00FBA410 /* DFColorWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFColorWell.h; sourceTree = "<group>"; };
+		2F282EAE1CA7EB9C00FBA410 /* DFColorWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFColorWell.m; sourceTree = "<group>"; };
+		2F282EAF1CA7EB9C00FBA410 /* DFColorGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFColorGridView.h; sourceTree = "<group>"; };
+		2F282EB01CA7EB9C00FBA410 /* DFColorGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFColorGridView.m; sourceTree = "<group>"; };
+		2F282EB11CA7EB9C00FBA410 /* NSColor+Rainbow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Rainbow.h"; sourceTree = "<group>"; };
+		2F282EB21CA7EB9C00FBA410 /* NSColor+Rainbow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Rainbow.m"; sourceTree = "<group>"; };
+		2F282EB31CA7EB9C00FBA410 /* NSColor+RainbowCrayons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+RainbowCrayons.h"; sourceTree = "<group>"; };
+		2F282EB41CA7EB9C00FBA410 /* NSColor+RainbowCrayons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+RainbowCrayons.m"; sourceTree = "<group>"; };
+		2F282EB51CA7EB9C00FBA410 /* NSColor+RainbowGoogleDesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+RainbowGoogleDesign.h"; sourceTree = "<group>"; };
+		2F282EB61CA7EB9C00FBA410 /* NSColor+RainbowGoogleDesign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+RainbowGoogleDesign.m"; sourceTree = "<group>"; };
+		2F282EB71CA7EB9C00FBA410 /* NSColor+RainbowLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+RainbowLight.h"; sourceTree = "<group>"; };
+		2F282EB81CA7EB9C00FBA410 /* NSColor+RainbowLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+RainbowLight.m"; sourceTree = "<group>"; };
+		2F282EB91CA7EB9C00FBA410 /* NSColor+RainbowX11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+RainbowX11.h"; sourceTree = "<group>"; };
+		2F282EBA1CA7EB9C00FBA410 /* NSColor+RainbowX11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+RainbowX11.m"; sourceTree = "<group>"; };
+		2F282EBB1CA7EB9C00FBA410 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F282EBC1CA7EB9C00FBA410 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		2F282EC71CA7EBAD00FBA410 /* Screen Shot 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 1.png"; sourceTree = "<group>"; };
+		2F282EC81CA7EBAD00FBA410 /* Screen Shot 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2.png"; sourceTree = "<group>"; };
+		2F282ECB1CA7EBED00FBA410 /* BFColorPickerPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFColorPickerPopover.h; sourceTree = "<group>"; };
+		2F282ECC1CA7EBED00FBA410 /* BFColorPickerPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFColorPickerPopover.m; sourceTree = "<group>"; };
+		2F282ECD1CA7EBED00FBA410 /* BFPopoverColorWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPopoverColorWell.h; sourceTree = "<group>"; };
+		2F282ECE1CA7EBED00FBA410 /* BFPopoverColorWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPopoverColorWell.m; sourceTree = "<group>"; };
+		2F282ECF1CA7EBED00FBA410 /* NSColorPanel+BFColorPickerPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColorPanel+BFColorPickerPopover.h"; sourceTree = "<group>"; };
+		2F282ED01CA7EBED00FBA410 /* NSColorPanel+BFColorPickerPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColorPanel+BFColorPickerPopover.m"; sourceTree = "<group>"; };
+		2F282ED11CA7EBED00FBA410 /* NSColorWell+BFColorPickerPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColorWell+BFColorPickerPopover.h"; sourceTree = "<group>"; };
+		2F282ED21CA7EBED00FBA410 /* NSColorWell+BFColorPickerPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColorWell+BFColorPickerPopover.m"; sourceTree = "<group>"; };
+		2F282ED31CA7EBED00FBA410 /* BFColorPickerPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFColorPickerPopoverView.h; sourceTree = "<group>"; };
+		2F282ED41CA7EBED00FBA410 /* BFColorPickerPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFColorPickerPopoverView.m; sourceTree = "<group>"; };
+		2F282ED51CA7EBED00FBA410 /* BFColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFColorPickerViewController.h; sourceTree = "<group>"; };
+		2F282ED61CA7EBED00FBA410 /* BFColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFColorPickerViewController.m; sourceTree = "<group>"; };
+		2F282ED71CA7EBED00FBA410 /* BFIconTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFIconTabBar.h; sourceTree = "<group>"; };
+		2F282ED81CA7EBED00FBA410 /* BFIconTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFIconTabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F282E941CA7EB7C00FBA410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F282E8E1CA7EB7C00FBA410 = {
+			isa = PBXGroup;
+			children = (
+				2F282E991CA7EB7C00FBA410 /* NScolorUtils */,
+				2F282E981CA7EB7C00FBA410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F282E981CA7EB7C00FBA410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F282E971CA7EB7C00FBA410 /* NScolorUtils.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F282E991CA7EB7C00FBA410 /* NScolorUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2F282EAB1CA7EB9C00FBA410 /* AppDelegate.h */,
+				2F282EAC1CA7EB9C00FBA410 /* AppDelegate.m */,
+				2F282EE21CA7EC1F00FBA410 /* DFColorWell */,
+				2F282EE11CA7EC1500FBA410 /* Rainbow-NSColor-ObjC */,
+				2F282EE01CA7EC0600FBA410 /* BFColorPickerPopover */,
+				2F282EBB1CA7EB9C00FBA410 /* Images.xcassets */,
+				2F282EBC1CA7EB9C00FBA410 /* MainMenu.xib */,
+				2F282E9D1CA7EB7C00FBA410 /* Supporting Files */,
+			);
+			path = NScolorUtils;
+			sourceTree = "<group>";
+		};
+		2F282E9D1CA7EB7C00FBA410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F282EA51CA7EB7C00FBA410 /* Info.plist */,
+				2F282E9E1CA7EB7C00FBA410 /* main.m */,
+				2F282EC71CA7EBAD00FBA410 /* Screen Shot 1.png */,
+				2F282EC81CA7EBAD00FBA410 /* Screen Shot 2.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F282EE01CA7EC0600FBA410 /* BFColorPickerPopover */ = {
+			isa = PBXGroup;
+			children = (
+				2F282ECB1CA7EBED00FBA410 /* BFColorPickerPopover.h */,
+				2F282ECC1CA7EBED00FBA410 /* BFColorPickerPopover.m */,
+				2F282ECD1CA7EBED00FBA410 /* BFPopoverColorWell.h */,
+				2F282ECE1CA7EBED00FBA410 /* BFPopoverColorWell.m */,
+				2F282ECF1CA7EBED00FBA410 /* NSColorPanel+BFColorPickerPopover.h */,
+				2F282ED01CA7EBED00FBA410 /* NSColorPanel+BFColorPickerPopover.m */,
+				2F282ED11CA7EBED00FBA410 /* NSColorWell+BFColorPickerPopover.h */,
+				2F282ED21CA7EBED00FBA410 /* NSColorWell+BFColorPickerPopover.m */,
+				2F282ED31CA7EBED00FBA410 /* BFColorPickerPopoverView.h */,
+				2F282ED41CA7EBED00FBA410 /* BFColorPickerPopoverView.m */,
+				2F282ED51CA7EBED00FBA410 /* BFColorPickerViewController.h */,
+				2F282ED61CA7EBED00FBA410 /* BFColorPickerViewController.m */,
+				2F282ED71CA7EBED00FBA410 /* BFIconTabBar.h */,
+				2F282ED81CA7EBED00FBA410 /* BFIconTabBar.m */,
+			);
+			name = BFColorPickerPopover;
+			sourceTree = "<group>";
+		};
+		2F282EE11CA7EC1500FBA410 /* Rainbow-NSColor-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				2F282EB11CA7EB9C00FBA410 /* NSColor+Rainbow.h */,
+				2F282EB21CA7EB9C00FBA410 /* NSColor+Rainbow.m */,
+				2F282EB31CA7EB9C00FBA410 /* NSColor+RainbowCrayons.h */,
+				2F282EB41CA7EB9C00FBA410 /* NSColor+RainbowCrayons.m */,
+				2F282EB51CA7EB9C00FBA410 /* NSColor+RainbowGoogleDesign.h */,
+				2F282EB61CA7EB9C00FBA410 /* NSColor+RainbowGoogleDesign.m */,
+				2F282EB71CA7EB9C00FBA410 /* NSColor+RainbowLight.h */,
+				2F282EB81CA7EB9C00FBA410 /* NSColor+RainbowLight.m */,
+				2F282EB91CA7EB9C00FBA410 /* NSColor+RainbowX11.h */,
+				2F282EBA1CA7EB9C00FBA410 /* NSColor+RainbowX11.m */,
+			);
+			name = "Rainbow-NSColor-ObjC";
+			sourceTree = "<group>";
+		};
+		2F282EE21CA7EC1F00FBA410 /* DFColorWell */ = {
+			isa = PBXGroup;
+			children = (
+				2F282EAD1CA7EB9C00FBA410 /* DFColorWell.h */,
+				2F282EAE1CA7EB9C00FBA410 /* DFColorWell.m */,
+				2F282EAF1CA7EB9C00FBA410 /* DFColorGridView.h */,
+				2F282EB01CA7EB9C00FBA410 /* DFColorGridView.m */,
+			);
+			name = DFColorWell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F282E961CA7EB7C00FBA410 /* NScolorUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F282EA81CA7EB7C00FBA410 /* Build configuration list for PBXNativeTarget "NScolorUtils" */;
+			buildPhases = (
+				2F282E931CA7EB7C00FBA410 /* Sources */,
+				2F282E941CA7EB7C00FBA410 /* Frameworks */,
+				2F282E951CA7EB7C00FBA410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NScolorUtils;
+			productName = NScolorUtils;
+			productReference = 2F282E971CA7EB7C00FBA410 /* NScolorUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F282E8F1CA7EB7C00FBA410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = sgyang;
+				TargetAttributes = {
+					2F282E961CA7EB7C00FBA410 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F282E921CA7EB7C00FBA410 /* Build configuration list for PBXProject "NScolorUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F282E8E1CA7EB7C00FBA410;
+			productRefGroup = 2F282E981CA7EB7C00FBA410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F282E961CA7EB7C00FBA410 /* NScolorUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F282E951CA7EB7C00FBA410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F282ECA1CA7EBAD00FBA410 /* Screen Shot 2.png in Resources */,
+				2F282EC51CA7EB9C00FBA410 /* Images.xcassets in Resources */,
+				2F282EC91CA7EBAD00FBA410 /* Screen Shot 1.png in Resources */,
+				2F282EC61CA7EB9C00FBA410 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F282E931CA7EB7C00FBA410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F282EBE1CA7EB9C00FBA410 /* DFColorWell.m in Sources */,
+				2F282EDC1CA7EBED00FBA410 /* NSColorWell+BFColorPickerPopover.m in Sources */,
+				2F282EC21CA7EB9C00FBA410 /* NSColor+RainbowGoogleDesign.m in Sources */,
+				2F282EC11CA7EB9C00FBA410 /* NSColor+RainbowCrayons.m in Sources */,
+				2F282EDA1CA7EBED00FBA410 /* BFPopoverColorWell.m in Sources */,
+				2F282ED91CA7EBED00FBA410 /* BFColorPickerPopover.m in Sources */,
+				2F282EDF1CA7EBED00FBA410 /* BFIconTabBar.m in Sources */,
+				2F282EDD1CA7EBED00FBA410 /* BFColorPickerPopoverView.m in Sources */,
+				2F282EDE1CA7EBED00FBA410 /* BFColorPickerViewController.m in Sources */,
+				2F282EDB1CA7EBED00FBA410 /* NSColorPanel+BFColorPickerPopover.m in Sources */,
+				2F282EBD1CA7EB9C00FBA410 /* AppDelegate.m in Sources */,
+				2F282EC41CA7EB9C00FBA410 /* NSColor+RainbowX11.m in Sources */,
+				2F282EBF1CA7EB9C00FBA410 /* DFColorGridView.m in Sources */,
+				2F282EC01CA7EB9C00FBA410 /* NSColor+Rainbow.m in Sources */,
+				2F282EC31CA7EB9C00FBA410 /* NSColor+RainbowLight.m in Sources */,
+				2F282E9F1CA7EB7C00FBA410 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F282EA61CA7EB7C00FBA410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F282EA71CA7EB7C00FBA410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F282EA91CA7EB7C00FBA410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NScolorUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgyang.NScolorUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F282EAA1CA7EB7C00FBA410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NScolorUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgyang.NScolorUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F282E921CA7EB7C00FBA410 /* Build configuration list for PBXProject "NScolorUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F282EA61CA7EB7C00FBA410 /* Debug */,
+				2F282EA71CA7EB7C00FBA410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F282EA81CA7EB7C00FBA410 /* Build configuration list for PBXNativeTarget "NScolorUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F282EA91CA7EB7C00FBA410 /* Debug */,
+				2F282EAA1CA7EB7C00FBA410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F282E8F1CA7EB7C00FBA410 /* Project object */;
+}

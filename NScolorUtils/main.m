@@ -1,9 +1,9 @@
 //
 //  main.m
-//  DFColorWell
+//  NScolorUtils
 //
-//  Created by Daniel Farrell on 18/01/2015.
-//  Copyright (c) 2015 Daniel Farrell. All rights reserved.
+//  Created by Yang on 3/27/16.
+//  Copyright © 2016 sgyang. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

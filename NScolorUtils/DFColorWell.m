@@ -10,10 +10,6 @@
 #import "DFColorGridView.h"
 
 #import "BFColorPickerPopover.h"
-//#import "NSColor+BFColorPickerPopover.h"
-//#import "NSColorWell+BFColorPickerPopover.h"
-//#import "BFPopoverColorWell.h"
-//#import "NSColorPanel+BFColorPickerPopover.h"
 
 #pragma mark - Build-in color well delegate
 
